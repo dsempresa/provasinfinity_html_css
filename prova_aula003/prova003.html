@@ -1,0 +1,59 @@
+<!-- Crie uma página de feedback para um site utilizando um formulário que permita aos usuários enviar seus comentários. Os campos do formulário serão referentes ao nome do usuário, data, avaliação textual. Em seguida, crie uma tabela com colunas correspondentes a esses campos e preencha-a simulando registros de usuários anteriores. -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 2px solid #dddddd;
+            text-align: left;
+            padding: 10px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2>Formulário de Feedback</h2>
+    <form action="#" method="post">
+        <label for="name">Nome:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="date">Data:</label><br>
+        <input type="date" id="date" name="date"><br><br>
+        
+        <label for="comment">Comentário:</label><br>
+        <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+    
+    <h2>Registros de Usuários Anteriores</h2>
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Data</th>
+            <th>Comentário</th>
+        </tr>
+        <tr>
+            <td>Diego Sousa</td>
+            <td>2024-05-01</td>
+            <td>Que pizza excelente</td>
+        </tr>
+        <tr>
+            <td>Ricaele Oliveira</td>
+            <td>2024-04-25</td>
+            <td>Que sabor irresistível</td>
+        </tr>
+
+    </table>
+</body>
+</html>
