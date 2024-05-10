@@ -1,0 +1,5 @@
+.retangulo {
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(to right, blue 50%, yellow 50%);
+}
