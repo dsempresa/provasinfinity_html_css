@@ -1,0 +1,21 @@
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: blue;
+    border-radius: 8px;
+  }
+  
+  nav ul li {
+    font-size: 14pt;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav ul li a:first-letter {
+    color: red; /* Define a cor da primeira letra como vermelho */
+  }
